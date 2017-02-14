@@ -22,3 +22,16 @@ gulp.task('default', function () {
     gulp.src('./index.php').pipe(htmlClass()).pipe(gulp.dest('./'));
 });
 
+# Установка
+
+Была мысль привязать установку к NPM но после некоторых размышлений я пришел к выводу, а за чем усложнять.
+
+Дело в том что вся небольшая магия кроется тут всего в одном файле gulp-preprocessor-classes.js
+
+и так, качаем это:
+
+https://github.com/AleksanderPopoff/gulp-preprocessor-classes/blob/master/gulp-preprocessor-classes.js
+
+кидаем в папку /node_module/
+
+Пользуемся :)
